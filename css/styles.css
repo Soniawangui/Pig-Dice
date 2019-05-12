@@ -1,4 +1,15 @@
-h1{
+
+
+header h1{
   font-family:Georgia, 'Times New Roman', Times, serif;
-  background-color: floralwhite;
+  
+}
+html{
+  background-image: url("../Images/NewbACK.jpg");
+  background-size: cover;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bolder;
+  
+
 }
