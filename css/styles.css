@@ -1,15 +1,52 @@
 
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
 
-header h1{
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  
-}
 html{
   background-image: url("../Images/NewbACK.jpg");
   background-size: cover;
   color: whitesmoke;
   font-size: 20px;
   font-weight: bolder;
-  
+  }
+  header h1{
+    font-family: Asap, sans-serif;
+    text-align: center;
+    color: white;
+  }
+.score-board{
+  border: 3px solid white;
+  border-radius: 4px;
+  text-align: center;
+  width: 200px; 
+  margin: 20px auto;
+  color: white;
+  padding: 15px 20px;
+  font-family: Asap, sans-serif;
+  position: relative;
 
+}
+.badge {
+  background: darkslategray;
+  color: white;
+  font-size: 14px;
+  padding: 3px 50px;
+  font-family: Asap, sans-serif;
+}
+#player1-label {
+  position: absolute;
+  top: 30px;
+  left: -140px;
+
+}
+#player2-label {
+  position: absolute;
+  top: 30px;
+  right: -140px;
+}
+form {
+  text-align: center;
+}
+.button {
+  text-align: center;
+  margin: 20px auto;
 }
