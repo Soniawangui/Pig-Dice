@@ -13,18 +13,7 @@ body{
     text-align: center;
     color: wheat;
   }
-.score-board{
-  border: 3px solid white;
-  border-radius: 4px;
-  text-align: center;
-  width: 200px; 
-  margin: 20px auto;
-  color: white;
-  padding: 15px 20px;
-  font-family: Asap, sans-serif;
-  position: relative;
-
-}
+ 
 .badge {
   background: darkslategray;
   color: white;
