@@ -11,6 +11,7 @@ The first player to score 100 or more points gets to win.
 Open Terminal
 git clone this repository
 
+
 ## Known Bugs
 There are no bugs that I know of as of now..But incase you come across some bugs feel free to debug.
 ## Technologies Used
