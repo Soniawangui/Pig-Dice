@@ -39,3 +39,7 @@ form {
   text-align: center;
   margin: 20px auto;
 }
+#new-game{
+  color: blue;
+  button: blue;
+}
