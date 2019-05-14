@@ -18,21 +18,43 @@
     <p>The Objective of Pig Dice Game is to score 100 points before the other player does.The Pig dice game is played by a six-sided dice. </p>
   </div>
 
-  <div class="score-board">
-    <div id="player1-label"class="badge">Player 1</div>
-    <div id="player2-label" class="badge">Player 2</div>
-    <span id="player1-score">0</span>:<span id="player2-score">0</span>
-  </div>
+  
 
   <form>
-    Player's name:<br>
-    <input type="text" name="Player1"><br>
-    Player's name:<br>
-    <input type="text" name="Player2">
+    <input type="text" placeholder="Player1" class="player1name">
+    <input type="text" placeholder="Player2" class="player2name">
    </form>
 
   <div class="button">
-  <button type="button">Play!</button>
+  <button  id="Start">Play!</button>
+</div>
+<button type="button" id="new-game">New Game</button>
+
+  <div class="game contain">
+  <div class="row">
+    <div class="col-md-6">
+      <h3>Player 1: <span id="playername"></span></span></h3>
+      
+      <h3>Result: <span id="roll-1"></span></h3>
+      <p>Round Total: <span id="total-1"></span></p>
+      <p>Total Score: <span id="score-1"></span></p>
+      <div class="control">
+        <button class="btn-info btn" id="player1-roll">Roll</button>
+        <button class="btn-info btn" id="player1-hold">Hold</button>
+      </div>
+      </div>
+      <div class="col-md-6">
+        <h3>Player 2: <span id="playername"></span></span></h3>
+        
+        <h3>Result: <span id="roll-2"></span></h3>
+        <p>Round Total: <span id="total-2"></span></p>
+        <p>Total Score: <span id="score-2"></span></p>
+        <div class="control">
+          <button class="btn-info btn" id="player2-roll">Roll</button>
+          <button class="btn-info btn" id="player2-hold">Hold</button>
+        </div>
+        </div>
+  </div>
 </div>
 
 
@@ -46,12 +68,8 @@
         <li>The first player to score 100 points wins the game.</li>
   </ul>
   </div>
-
-  <div  class="game contain">
-    <button id="new-game" class="btn-info-btn">New Game</button>
-  </div>
-  <script src="js/script.js" charset="utf-8"></script>
-  <script src="js/Jquery.js"></script>
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/script.js"></script>
   
 </body>
 </html>
