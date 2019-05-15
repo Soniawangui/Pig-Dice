@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
 
 body{
-  background-image: url("../Images/NewbACK.jpg");
+  background-image: url("../Images/dice.jpg");
   background-size: cover;
   color: whitesmoke;
   font-size: 20px;
@@ -21,13 +21,13 @@ body{
   padding: 3px 50px;
   font-family: Asap, sans-serif;
 }
-#player1-label {
+#user1-label {
   position: absolute;
   top: 30px;
   left: -140px;
 
 }
-#player2-label {
+#user2-label {
   position: absolute;
   top: 30px;
   right: -140px;
@@ -39,7 +39,6 @@ form {
   text-align: center;
   margin: 20px auto;
 }
-#new-game{
-  color: blue;
-  button: blue;
-}
+ #new-game{
+   color: blue;
+ }
