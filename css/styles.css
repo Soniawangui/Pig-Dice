@@ -42,3 +42,9 @@ form {
  #new-game{
    color: blue;
  }
+ .turn1{
+   display: none;
+ }
+ .turn2{
+   display: none;
+ }

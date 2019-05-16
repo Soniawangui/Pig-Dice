@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,65 +10,73 @@
   <link rel="stylesheet" href="css/styles.css">
   <title>Pig Dice</title>
 </head>
+
 <body>
   <header>
 
   </header>
   <div class="objectives">
     <h2>OBJECTIVES</h2>
-    <p>The Objective of Pig Dice Game is to score 100 points before the other player does.The Pig dice game is played by a six-sided dice. </p>
+    <p>The Objective of Pig Dice Game is to score 100 points before the other player does.The Pig dice game is played by
+      a six-sided dice. </p>
   </div>
 
-  
+
 
   <form>
     <input type="text" placeholder="User1" class="user1name">
     <input type="text" placeholder="User2" class="User2name">
-   </form>
+  </form>
 
   <div class="button">
-  <button  id="start">Play!</button>
-</div>
+    <button id="start">Play!</button>
+  </div>
 
   <div class="game contain">
-  <div class="row">
-    <div class="col-md-6">
-      <h3>User 1: <span id="username"></span></span></h3>
-      
-      <h3>Result: <span id="roll-1"></span></h3>
-      <p>Round Total: <span id="total-1"></span></p>
-      <p>Total Score: <span id="score-1"></span></p>
-      <div class="control">
-        <button class="btn-info btn" id="user1-roll">Roll</button>
-        <button class="btn-info btn" id="user1-hold">Hold</button>
-      </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>User 1: <span id="username">..</span></h3>
+        <h3>Result: <span id="result1">..</span></h3>
+        <p>Round Total: <span id="total1">..</span></p>
+        <p>Total Score:<span id="score1">..</span></p>
+        <div class="control">
+          <div class="turn1">
+            <button class="btn-info btn" id="roll1">Roll</button>
+            <button class="btn-info btn" id="hold1">Hold</button>
+          </div>
+        </div>
       </div>
       <div class="col-md-6">
         <h3>User 2: <span id="username"></span></span></h3>
-        
-        <h3>Result: <span id="roll-2"></span></h3>
+
+        <h3>Result: <span id="result2"></span></h3>
         <p>Round Total: <span id="total-2"></span></p>
         <p>Total Score: <span id="score-2"></span></p>
         <div class="control">
-          <button class="btn-info btn" id="user2-roll">Roll</button>
-          <button class="btn-info btn" id="user2-hold">Hold</button>
+          <div class="turn2">
+            <button class="btn-info btn" id="roll2">Roll</button>
+            <button class="btn-info btn" id="hold2">Hold</button>
+          </div>
         </div>
-        </div>
+      </div>
+    </div>
   </div>
-</div>
 
 
-  
-    <h3>GAMEPLAY</h3>
-    <ul>
-      <li>In each turn a player rolls a dice repeatedly until:either a 1 is rolled or player decides to hold and pass on the turn to his/her opponent. </li>
-        <li>The number the player rolls is added to a temporary score. If the player rolls a 1,they lose their temporary score and the turn is passed on the to the other opponent. </li>
-        <li>If the player gets any other number,they can decide to continue rolling the dice.</li>
-        <li>If the player decides to hold,then their total is added to the overall score.</li>
-        <li>The first player to score 100 points wins the game.</li>
+
+  <h3>GAMEPLAY</h3>
+  <ul>
+    <li>In each turn a player rolls a dice repeatedly until:either a 1 is rolled or player decides to hold and pass on
+      the turn to his/her opponent. </li>
+    <li>The number the player rolls is added to a temporary score. If the player rolls a 1,they lose their temporary
+      score and the turn is passed on the to the other opponent. </li>
+    <li>If the player gets any other number,they can decide to continue rolling the dice.</li>
+    <li>If the player decides to hold,then their total is added to the overall score.</li>
+    <li>The first player to score 100 points wins the game.</li>
   </ul>
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/script.js"></script>
-  
+
 </body>
+
 </html>
